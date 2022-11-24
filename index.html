@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud UCamp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <center><h1>Proyecto CRUD UCamp</h1></center>
+    <center><h3>Mediante este programa CRUD, se administrará a las personas que deseen llegar al gimnasio para hacer ejercicio, <br> registrando su nombre, disciplina que va a realizar y las fechas de inicio y término de su mensualidad</h3></center>
+    <center><table>
+        <tr>
+            <td>
+                <center><form class="contenedor" onsubmit="event.preventDefault();onSubmitForm();">
+                    <div>
+                        <label>Nombre completo</label><label class="classValidate hide" id="labelId"> *Campos obligatorios</label><br>
+                        <input type="text" name="nombre" placeholder="Nombre completo" id="nombre">
+                    </div>
+                    <div>
+                        <label>Disciplina</label><br>
+                        <input type="text" name="disciplina" placeholder="Disciplina" id="disciplina">
+                    </div>
+                    <div>
+                        <label>Fecha de ingreso</label><br>
+                        <input type="date" name="fingreso" placeholder="Fecha de ingreso" id="fingreso">
+                    </div>
+                    <div>
+                        <label>Fecha de término</label><br>
+                        <input type="date" name="fsalida" placeholder="Fecha de término" id="fsalida">
+                    </div>
+                    <div class="boton-agregar"><br>
+                        <input type="submit" value="Agregar">
+                    </div>
+                </form></center>
+            </td>
+            <div>
+                <table class="mainTable" id="atletas">
+                    <thead>
+                        <th>Nombre</th>
+                        <th>Disciplina</th>
+                        <th>F. Ingreso</th>
+                        <th>F. Salida</th>
+                        <th>Acción</th>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+        </tr>
+    </table></center> 
+    <script src="crud.js"></script> 
+</body>
+</html>
