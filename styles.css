@@ -118,3 +118,185 @@ label {
         padding-bottom: 10px;
     }
 }
+                                        /*----- FOOTER -----*/
+.footer{
+    width: 1200px;
+    display: flex;
+    margin-top: 30px;
+    padding-left: 100px;
+}
+#redes {
+    width: 300px;
+    height: 60px;
+    margin-left: 100px;
+}
+
+#redes img{
+    width: 25px;
+    height: 25px;
+    float: left;
+    padding: 10px;
+}
+#arti{
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+}
+#arti h4{
+    color: rgb(0, 0, 0);
+}
+#arti a{
+    display: block;
+    padding: 5px;
+    color: yellow;
+}
+#soporte{
+    width: 200px;
+    height: 200px;
+}
+#soporte h4{
+    color: rgb(0, 0, 0);
+}
+#soporte a{
+    display: block;
+    padding: 5px;
+    color: yellow;
+}
+#nosotros{
+    width: 200px;
+    height: 200px;
+}
+#nosotros h4{
+    color: rgb(0, 0, 0);
+}
+#nosotros a{
+    display: block;
+    padding: 5px;
+    color: yellow;
+}
+#legal{
+    width: 200px;
+    height: 200px;
+}
+#legal h4{
+    color: rgb(0, 0, 0);
+}
+#legal a{
+    display: block;
+    padding: 5px;
+    color: yellow;
+}
+                                        /*----- MEDIA QUERY MOVILE FOOTER-----*/
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+    .footer{
+        width: 300px;
+        height: 100px;
+        margin-left: 1px;
+        padding-left: 1px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #arti{
+        width: 200px;
+        height: 200px;
+        margin-left: 60px;
+        justify-items: center;
+    }
+    #arti a{
+        color: yellow;
+    }
+    #redes {
+        width: 300px;
+        height: 200px;
+        margin-left: 70px;
+        justify-items: center;
+    }
+    #soporte{
+        width: 200px;
+        height: 200px;
+        margin-left: 60px;
+        justify-items: center;
+    }
+    #soporte a{
+        color: yellow;
+    }
+    #nosotros{
+        width: 200px;
+        height: 200px;
+        margin-left: 60px;
+        justify-items: center;
+        
+    }
+    #nosotros a{
+        color: yellow;
+    }
+    #legal{
+        width: 200px;
+        height: 200px;
+        margin-left: 60px;
+        justify-items: center;
+    }
+    #legal a{
+        color: yellow;
+    }
+}
+/*------------------------------------------------ MEDIA QUERY TABLET FOOTER-- */
+@media screen and (min-width: 481px) and (max-width: 770px){
+    .footer{
+        width: 430px;
+        height: 60px;
+        padding-left: 1px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #arti{
+        width: 200px;
+        height: 200px;
+        margin-left: 130px;
+        justify-items: center;
+    }
+    #arti a{
+        color: yellow;
+    }
+    #redes {
+        width: 300px;
+        height: 200px;
+        margin-left: auto;
+        justify-items: center;
+    }
+    #redes img {
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+        justify-items: center;
+    }
+    #soporte{
+        width: 200px;
+        height: 200px;
+        margin-left: 130px;
+        justify-items: center;
+    }
+    #soporte a{
+        color: yellow;
+    }
+    #nosotros{
+        width: 200px;
+        height: 200px;
+        margin-left: 130px;
+        justify-items: center;
+        
+    }
+    #nosotros a{
+        color: yellow;
+    }
+    #legal{
+        width: 200px;
+        height: 200px;
+        margin-left: 130px;
+        justify-items: center;
+    }
+    #legal a{
+        color: yellow;
+    }
+}
+                                            /*--Término de formatos para sección FOOTER --*/
